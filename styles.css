@@ -25,7 +25,7 @@
     align-items: flex-end;
     justify-content: space-around;
     height: 80px;
-    width: 260px;
+    width: 170px;
     border: 1px solid slateblue;
     background-color: white;
     border-radius: 10px;
@@ -44,6 +44,11 @@
     flex-wrap: wrap;
     gap: 10px;
     width: 260px;
+}
+
+.square{
+    display: flex;
+    gap: 10px;
 }
 
 .operators{
@@ -69,7 +74,12 @@
     justify-content: center;
 }
 
-.clear, .operator, .number, .decimal, .equal{
+.logo{
+    width: 70px;
+    height: 70px;
+}
+
+.clear, .operator, .number, .decimal, .equal, .back{
     font-size: 50px;
     width: 80px;
     height: 80px;
@@ -79,6 +89,6 @@
     
 }
 
-.clear:hover, .operator:hover, .number:hover, .decimal:hover{
+.clear:hover, .operator:hover, .number:hover, .decimal:hover, .equal:hover, .back:hover{
     background-color: rgb(49, 88, 194);
 }
